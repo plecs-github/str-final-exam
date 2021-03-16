@@ -671,6 +671,13 @@
       "email": "omacneilage2q@fc2.com",
       "address": "8 North Park",
       "active": false
+    },
+    {
+      "id": 100,
+      "name": "Mika Hakkinen",
+      "email": "hakkinen@t-online.fi",
+      "address": "3613 Oumpulo street",
+      "active": true
     }
   ]
 }
