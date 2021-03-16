@@ -23,7 +23,7 @@ export class UserListComponent implements OnInit {
 
   onDelete(user: User): void {
     if (
-      confirm(`Click 'OK' to verify that you really want to delete this user.`)
+      confirm(`Click 'OK' to verify that you want to delete this user.`)
       )
     this.userService.remove(user);
   }
@@ -33,4 +33,11 @@ export class UserListComponent implements OnInit {
   searchEvent(event: Event): void {
     this.phrase = (event.target as HTMLInputElement).value;
   }
+
+  columnKey: string = '';
+
+  onColumnSelect(key: string): void {
+    this.columnKey = key;
+  }
+
 }
