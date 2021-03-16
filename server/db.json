@@ -26,7 +26,7 @@
       "name": "Brigitte Morland",
       "email": "bmorland3@biblegateway.com",
       "address": "4514 Milwaukee Parkway",
-      "active": true
+      "active": false
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "name": "Gawain McKillop",
       "email": "gmckillopb@geocities.jp",
       "address": "0 School Way",
-      "active": false
+      "active": true
     },
     {
       "id": 13,
@@ -670,13 +670,6 @@
       "name": "Olga MacNeilage",
       "email": "omacneilage2q@fc2.com",
       "address": "8 North Park",
-      "active": false
-    },
-    {
-      "id": 100,
-      "name": "Milzie Cosbee",
-      "email": "mcosbee2r@go.com",
-      "address": "0642 Spaight Junction",
       "active": false
     }
   ]
